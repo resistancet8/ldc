@@ -1,0 +1,28 @@
+.scrolltop {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background: #525f7f;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 27px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.scrolltop i {
+  transition: .3s;
+}
+
+.scrolltop:hover i{
+  transform: translateY(-3px);
+}
+
+body, html {
+  box-sizing: border-box;
+  color: #000000;
+}

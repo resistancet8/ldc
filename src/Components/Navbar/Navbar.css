@@ -1,0 +1,29 @@
+#navbar-main {
+  background: white;
+  height: 150px;
+}
+
+.support-links {
+  color: #000;
+}
+
+.support-links p {
+  margin: 0;
+}
+
+.support-links i.fas   {
+  font-size: 26px;
+}
+
+#main-navbar {
+  padding: 3px 0;
+}
+
+#main-navbar button.dropdown-toggle, #main-navbar .dropdown-menu{
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#main-navbar a {
+  color: #000;
+}
